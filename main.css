@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+  }
+  
+  h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+    font-weight: 100;
+  }
+  
+  h2 {}
+  
+  h3 {}
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  
+  /* ---- layout ---- */
+  
+  #site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
+  }
+  
+  #site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  #site-main {
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    padding: 70px;
+  }
+  
+  .section {
+    margin-bottom: 150px;
+  }
+
+  nav.header {
+    display: flex;
+    background: white;
+    padding: 30px 30px;
+  }
+  
+  nav.header div {
+    flex: 1;
+    justify-content: space-between;
+    }
+    .menu-icon {
+        font-size: 50px;
+        float: right;
+    }
+  
+  
+  /* ---- components ---- */
+  
+  button {
+    background: #3f46ad;
+    color: white;
+    padding: 40px 267px;
+    border-radius: 6px;
+  }
+  
+  .button-text {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  /* ---- section ---- */
+  
+  section.testimonials {
+    // ...
+  }
+  
+  section.testimonials .button {
+    margin-bottom: 10px;
+  }
+
+
+
+body {
+}
+
+a {
+}
+
+
+
+
